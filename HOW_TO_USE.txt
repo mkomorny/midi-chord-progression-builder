@@ -1,0 +1,53 @@
+HOW TO USE: ableton-midi-chord-builder
+======================================
+
+PURPOSE
+  Turns chord progressions brainstormed in chat directly into professional,
+  humanized Type 0/1 MIDI clips (.mid) and saves them straight into your
+  Ableton Live User Library (./output/midi_clips)
+  for instant drag-and-drop into tracks.
+
+CAPABILITIES
+  - Generates standard .mid clips with custom voicings (Jazz open, Drop-2, Ambient Pad, Close)
+  - Automatically saves directly to your Ableton User Library (./output/midi_clips)
+  - Humanizes velocity with subtle natural variation (+-6 to +-10)
+  - Adds natural micro-timing flam/strum delay (8-15ms) across chord notes
+  - Supports extended chords: 9ths, 11ths, 13ths, altered dominants, and slash chords
+  - Custom BPM, bar lengths, and beats per chord
+
+USE CASES
+  - "Turn that chord progression into a MIDI clip for Ableton."
+  - "Make me a 4-bar MIDI file for Dm9 - G13 - Cmaj9 with jazz voicings."
+  - "Export these chords as a MIDI file at 115 BPM."
+  - "Create an ambient pad chord clip for F#m7 - Dmaj7 - Bm9."
+  - "Generate a drop-2 guitar chord progression clip in A minor."
+
+IDEAS
+  - Pair with Ableton Rhodes / Electric: use "jazz" voicing for authentic Neo-Soul/Lo-Fi guide-tone spacing.
+  - Pair with Guitar instruments or Strings: use "drop2" voicing for rich, warm harmonic separation.
+  - Pair with Ambient Wavetable synths: use "pad" voicing for deep sub-bass and wide octave extension.
+  - Pair with Arpeggiator / Plucks: use "close" voicing for compact, punchy inversions.
+
+PROMPTS YOU CAN PASTE
+  Turn that progression into an Ableton MIDI clip with jazz voicings.
+
+  Make me a 4-bar MIDI file for Dm9 - G13 - Cmaj9 at 120 BPM.
+
+  Create an ambient pad chord clip in F# minor at 85 BPM.
+
+  Export these chords as a drop-2 guitar MIDI clip: Am9 - Fmaj7 - Cadd9 - G6.
+
+  Build an Ableton chord progression clip for ii-V-I in Eb major.
+
+EXAMPLE FLOW
+  You:   Make me a 4-bar MIDI file for Dm9 - G13 - Cmaj9 at 120 BPM.
+  Model: [Generates humanized MIDI clip]
+         Saved to: ./output/midi_clips\Dm9_G13_Cmaj9_jazz.mid
+         -> In Ableton: Open User Library > Clips > Chord Progressions and drag onto your track!
+
+DEFAULT GOALS IF YOU DON'T NAME ONE
+  1. Default voicing: "jazz" open voicing (root bass, guide tones, color extensions)
+  2. Default tempo: 120 BPM
+  3. Default length: 1 bar (4 beats) per chord
+  4. Default destination: ./output/midi_clips
+  5. Include humanized velocity variance and micro-timing flam delay
